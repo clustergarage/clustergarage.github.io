@@ -1,0 +1,28 @@
+title: Cluster Garage
+description: Lorem ipsum dolor
+baseurl: ""
+#url: "https://clustergarage.io"
+permalink: /:title/
+brand:
+  #image: logo.svg # upload logo to /assets/img/ folder
+  text: ClusterGarage
+collections:
+  docs:
+    output: true
+footer:
+  copyright: Lorem ipsum dolor <a href="">sit amet</a> consectetur adipiscing elit
+#google_analytics:
+markdown: kramdown
+highlighter: rouge
+sass:
+  style: compressed
+remote_theme: clustergarage/docs-theme
+plugins:
+- jekyll-avatar
+- jekyll-feed
+- jekyll-remote-theme
+- jekyll-seo-tag
+exclude:
+- Gemfile
+- Gemfile.lock
+- node_modules

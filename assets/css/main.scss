@@ -1,0 +1,97 @@
+---
+---
+
+@import "{{ site.theme }}";
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+.section-splash {
+  .uk-container {
+    display: flex;
+    color: #fff;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .splash {
+    transform: rotateZ(-4deg);
+
+    .text {
+      position: absolute;
+      color: #fff;
+      line-height: 100%;
+      font-family: "Anton", sans-serif;
+      letter-spacing: 1rem;
+      overflow: hidden;
+      transform: translate(-50%, -50%);
+      mix-blend-mode: screen;
+
+      @for $i from 0 through 40 {
+        $key: $i + 1;
+        &:nth-child(#{$key}) {
+          $row: floor($i / 20);
+          color: rgba(40, random(200) + 55, random(200) + 55, 1);
+          clip-path: polygon(
+            $i * 5% - $row * 100% - random(2) $row * 50% - random(5),
+            $key * 5% - $row * 100% + random(5) $row * 50% - random(30),
+            $key * 5% - $row * 100% + random(5) $row * 50% + 50% + random(5),
+            $i * 5% - $row * 100% - random(2) $row * 50% + 50% + random(30)
+          );
+          filter: blur(#{random(16) - 10}px);
+
+          .text-inner1 {
+            animation: vertical random(1000) + 700ms random(100) + 0ms ease-in-out infinite alternate;
+          }
+          .text-inner2 {
+            animation: horizontal random(1000) + 700ms random(100) + 0ms ease-in-out infinite alternate;
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes horizontal {
+  0% {
+    transform: translateX(6px);
+  }
+  100% {
+    transform: translateX(-6px);
+  }
+}
+@keyframes vertical {
+  0% {
+    transform: translateY(3px);
+  }
+  100% {
+    transform: translateY(-3px);
+  }
+}
+
+@media (min-width: 960px) {
+  .section-hero {
+    display: none;
+  }
+
+  .section-splash {
+    display: block;
+
+    .uk-container {
+      min-height: 260px;
+    }
+    .splash .text {
+      font-size: 200%;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-splash {
+    .uk-container {
+      min-height: 360px;
+    }
+    .splash .text {
+      font-size: 120%;
+    }
+  }
+}
