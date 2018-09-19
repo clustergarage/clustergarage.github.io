@@ -1,7 +1,7 @@
 title: Cluster Garage
 description: Lorem ipsum dolor
 baseurl: ""
-#url: "https://clustergarage.io"
+url: "https://clustergarage.io"
 permalink: /:title/
 brand:
   #image: logo.svg # upload logo to /assets/img/ folder
