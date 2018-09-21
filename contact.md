@@ -1,9 +1,9 @@
 ---
 layout: contact
-title: Got Any Questions
+title: Got Questions?
 permalink: /contact/
 formspree:
-  email: contact@clustergarage.io
+  email: brett@clustergarage.io
   redirect: /thanks/
 ---
 
@@ -11,4 +11,4 @@ formspree:
 
 Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
 
-{% include map.html latitude="40.6700" longitude="-73.9400" zoom="16" %}
+{% include map.html latitude="40.0292084" longitude="-83.0227733" zoom="17" %}

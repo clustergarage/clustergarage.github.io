@@ -79,6 +79,10 @@ header {
   }
 }
 
+#map {
+  min-height: 400px;
+}
+
 @keyframes horizontal {
   0% {
     transform: translateX(6px);
