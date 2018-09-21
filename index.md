@@ -20,7 +20,7 @@ section:
     sed ultricies varius, mauris nulla maximus nunc, id congue sapien erat sed
     nunc.
 categories:
-  columns: 2
+  columns: 3
   title: Products and Services
   subtitle: Morbi iaculis nunc eros, eget tempus mi tincidunt a.
 ---
@@ -84,7 +84,7 @@ categories:
 				<div class="uk-card uk-card-body uk-inline uk-border-rounded">
 					<a class="uk-position-cover" href="{{ item.url | prepend:site.baseurl }}"></a>
 					{% if item.icon %}
-					<span data-uk-icon="icon: {{ item.icon }}; ratio: 2" class=""></span>
+					<span data-uk-icon="icon: {{ item.icon }}; ratio: 2"></span>
 					{% endif %}
 					<h3 class="uk-card-title uk-margin">{{ item.title }}</h3>
 					{% if item.desc %}

@@ -1,8 +1,18 @@
 ---
 ---
 
+$color-main: rgb(1%, 0, 1%);
+$color-hover: #5a80ff;
+
 @import "{{ site.theme }}";
-@import url('https://fonts.googleapis.com/css?family=Anton');
+
+$colors: #bfbbb6, #befee1, #50e5ff, #5a80ff, #5e00d0;
+//$colors: #c15450, #e8b574, #ebebc1, #21d1ce, #2f8b95;
+//$colors: #292b2e, #468d93, #ece2c8, #e69f3c, #82253b;
+//$colors: #ff0066, #ffb300, #b0ff05, #00ffc8, #708d91;
+//$colors: #091c58, #085e9f, #1cd9a4, #b9f467, #e3f983;
+//$colors: #3bb9d9, #f510a5, #b811f5, #5b0df7, #190557;
+//$colors: #f676de, #c410f0, #0fbcf0, #2f62fe, #4f04e3;
 
 .section-splash {
   .splash-container {
@@ -21,24 +31,25 @@
       position: absolute;
       color: #fff;
       line-height: 100%;
-      font-family: "Anton", sans-serif;
-      letter-spacing: 1rem;
       overflow: hidden;
       transform: translate(-50%, -50%);
       mix-blend-mode: screen;
 
       @for $i from 0 through 40 {
         $key: $i + 1;
+        $val: ($i % 5) + 1;
         &:nth-child(#{$key}) {
           $row: floor($i / 20);
-          color: rgba(40, random(200) + 55, random(200) + 55, 1);
+          //color: rgba(40, random(200) + 55, random(200) + 55, 1);
+          //color: nth($colors, random(length($colors)));
+          color: nth($colors, $val);
           clip-path: polygon(
             $i * 5% - $row * 100% - random(2) $row * 50% - random(5),
             $key * 5% - $row * 100% + random(5) $row * 50% - random(30),
             $key * 5% - $row * 100% + random(5) $row * 50% + 50% + random(5),
             $i * 5% - $row * 100% - random(2) $row * 50% + 50% + random(30)
           );
-          filter: blur(#{random(16) - 10}px);
+          filter: blur(#{random(15) - 10}px);
 
           .text-inner1 {
             animation: vertical random(1000) + 700ms random(100) + 0ms ease-in-out infinite alternate;
@@ -48,6 +59,22 @@
           }
         }
       }
+    }
+  }
+}
+
+header {
+  .uk-logo {
+    &:hover {
+      color: $color-hover;
+    }
+  }
+}
+
+.uk-card {
+  &:hover {
+    .uk-icon {
+      color: $color-hover;
     }
   }
 }

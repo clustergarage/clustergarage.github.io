@@ -1,10 +1,34 @@
 ---
-- title: File Integrity Monitoring for Kubernetes
+- title: File Integrity Monitoring
   desc: |
     In hac habitasse platea dictumst. Phasellus justo orci, elementum consectetur
     nunc ac, luctus imperdiet arcu.
-  icon: folder
+  icon: search
   url: /fim-k8s
+- title: Turn-key Installations
+  desc: |
+    Suspendisse potenti. Integer nulla nibh, convallis vitae elit ac, tempor
+    lobortis quam sed condimentum.
+  icon: pull
+  url: /consulting
+#- title: SRE Tools
+#  desc: |
+#    Suspendisse potenti. Integer nulla nibh, convallis vitae elit ac, tempor
+#    lobortis quam sed condimentum.
+#  icon: git-branch
+#  url: /consulting
+#- title: Networking Patterns
+#  desc: |
+#    Suspendisse potenti. Integer nulla nibh, convallis vitae elit ac, tempor
+#    lobortis quam sed condimentum.
+#  icon: world
+#  url: /consulting
+#- title: Container Workshops
+#  desc: |
+#    Suspendisse potenti. Integer nulla nibh, convallis vitae elit ac, tempor
+#    lobortis quam sed condimentum.
+#  icon: laptop
+#  url: /consulting
 - title: Consulting Services
   desc: |
     Suspendisse potenti. Integer nulla nibh, convallis vitae elit ac, tempor
