@@ -1,10 +1,10 @@
 ---
-- title: File Integrity Monitoring
+- title: Argus
   desc: |
-    In hac habitasse platea dictumst. Phasellus justo orci, elementum consectetur
-    nunc ac, luctus.
+    File Integrity Monitoring in hac habitasse platea dictumst. Phasellus justo
+    orci elementum.
   icon: server
-  url: /fim-k8s
+  url: /argus
 - title: Automated SRE
   desc: |
     Proin dolor dui, maximus eget diam vel, pellentesque tristique augue. Aenean
