@@ -1,0 +1,3 @@
+*.yaml linguist-language=YAML linguist-detectable
+*.md linguist-language=Markdown linguist-detectable
+Gemfile* linguist-vendored
