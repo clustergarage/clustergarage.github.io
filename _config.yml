@@ -12,7 +12,6 @@ collections:
 footer:
   copyright: Lorem ipsum dolor <a href="">sit amet</a> consectetur adipiscing elit
 google_analytics: UA-126190026-1
-#google_maps_api_key: AIzaSyBrK-zzlH5oMTfELDuwNytdIsWsEf11c38
 markdown: kramdown
 highlighter: rouge
 sass:

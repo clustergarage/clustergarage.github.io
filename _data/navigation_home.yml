@@ -1,37 +1,17 @@
 ---
 - title: Argus
   desc: |
-    File Integrity Monitoring in hac habitasse platea dictumst. Phasellus justo
-    orci elementum.
+    File Integrity Monitoring for Kubernetes.
   icon: server
   url: /argus
-- title: Automated SRE
+- title: Janus
   desc: |
-    Proin dolor dui, maximus eget diam vel, pellentesque tristique augue. Aenean
-    sem libero.
-  icon: git-branch
-  url: /consulting
-- title: Turn-key Installations
-  desc: |
-    Suspendisse potenti. Integer nulla nibh, convallis vitae elit ac, tempor
-    lobortis quam.
-  icon: nut
-  url: /consulting
-- title: Container Workshops
-  desc: |
-    Aliquam tincidunt iaculis pulvinar. Aenean lorem nulla, volutpat ut volutpat
-    vitae, tincidunt.
-  icon: file-edit
-  url: /consulting
-- title: Networking Patterns
+    Filesystem Gatekeeper for Kubernetes.
+  icon: lock
+  url: /janus
+- title: Networking Tools
   desc: |
     Integer in orci cursus, tempus ex nec, condimentum dui. Suspendisse sodales
     viverra vestibulum.
   icon: world
-  url: /consulting
-- title: Consulting Services
-  desc: |
-    Mauris aliquet lacus ut ipsum pretium fermentum. Morbi maximus augue non
-    massa lacinia.
-  icon: users
   url: /consulting
