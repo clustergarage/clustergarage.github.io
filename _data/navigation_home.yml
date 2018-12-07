@@ -6,7 +6,7 @@
   url: /argus
 - title: Janus
   desc: |
-    Filesystem Gatekeeper for Kubernetes.
+    File Access Auditing for Kubernetes.
   icon: lock
   url: /janus
 - title: Networking Tools
