@@ -1,7 +1,6 @@
 ---
 ---
 
-$color-main: rgb(1%, 0, 1%);
 $color-hover: #5a80ff;
 
 @import "{{ site.theme }}";
@@ -29,36 +28,9 @@ $colors: #bfbbb6, #befee1, #50e5ff, #5a80ff, #5e00d0;
 
     .text {
       position: absolute;
-      color: #fff;
+      color: #333;
       line-height: 100%;
       overflow: hidden;
-      transform: translate(-50%, -50%);
-      mix-blend-mode: screen;
-
-      @for $i from 0 through 40 {
-        $key: $i + 1;
-        $val: ($i % 5) + 1;
-        &:nth-child(#{$key}) {
-          $row: floor($i / 20);
-          //color: rgba(40, random(200) + 55, random(200) + 55, 1);
-          //color: nth($colors, random(length($colors)));
-          color: nth($colors, $val);
-          clip-path: polygon(
-            $i * 5% - $row * 100% - random(2) $row * 50% - random(5),
-            $key * 5% - $row * 100% + random(5) $row * 50% - random(30),
-            $key * 5% - $row * 100% + random(5) $row * 50% + 50% + random(5),
-            $i * 5% - $row * 100% - random(2) $row * 50% + 50% + random(30)
-          );
-          filter: blur(#{random(15) - 10}px);
-
-          .text-inner1 {
-            animation: vertical random(1000) + 700ms random(100) + 0ms ease-in-out infinite alternate;
-          }
-          .text-inner2 {
-            animation: horizontal random(1000) + 700ms random(100) + 0ms ease-in-out infinite alternate;
-          }
-        }
-      }
     }
   }
 }
@@ -81,23 +53,6 @@ header {
 
 #map {
   min-height: 400px;
-}
-
-@keyframes horizontal {
-  0% {
-    transform: translateX(6px);
-  }
-  100% {
-    transform: translateX(-6px);
-  }
-}
-@keyframes vertical {
-  0% {
-    transform: translateY(3px);
-  }
-  100% {
-    transform: translateY(-3px);
-  }
 }
 
 @media (min-width: 960px) {
