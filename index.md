@@ -2,23 +2,13 @@
 layout: default
 splash:
   title: Cluster Garage
-  subtitle: |
-    Donec ut placerat purus, in gravida diam. Aliquam cursus metus urna, sit
-    amet aliquet metus tristique vel. Curabitur ultricies laoreet turpis in
-    imperdiet.
-section:
-  title: In hac habitasse platea dictumst
-  subtitle: |
-    Suspendisse potenti. Integer nulla nibh, convallis vitae elit ac, tempor
-    lobortis quam. Sed condimentum, nisi at efficitur dignissim, ex dui malesuada
-    enim, ac convallis velit ex sed nunc. Aenean vitae tristique tellus. Proin at
-    nibh suscipit, finibus lacus sed, pulvinar turpis. Phasellus viverra, libero
-    sed ultricies varius, mauris nulla maximus nunc, id congue sapien erat sed
-    nunc.
+  quote: |
+    Studios are passe for me. I'd rather play in a garage, in a truck, or a 
+    rehearsal hall, a club, or a basement.
 categories:
   columns: 3
-  title: Products and Services
-  subtitle: Morbi iaculis nunc eros, eget tempus mi tincidunt a.
+  title: Come Play
+  subtitle: Technology doesn't have to be boring
 ---
 
 <div class="uk-section section-splash" data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true">
@@ -26,15 +16,11 @@ categories:
     <img src="/assets/img/garage.jpg">
   </div>
 
-  <div class="uk-container uk-container-small">
-    <p class="subtitle uk-text-lead uk-text-center">{{ page.splash.subtitle }}</p>
-  </div>
-</div>
-
-<div class="uk-section uk-text-center">
-  <div class="uk-container uk-container-small">
-    <h2 class="uk-text-center heading-hero-2">{{ page.section.title }}</h2>
-    <p class="subtitle uk-text-lead uk-text-center">{{ page.section.subtitle | escape }}</p>
+  <div class="uk-container uk-container-xsmall">
+    <blockquote cite="#">
+    <p class="uk-margin-small-bottom">{{ page.splash.quote }}</p>
+    <footer>Neil Young</footer>
+    </blockquote>
   </div>
 </div>
 
