@@ -10,7 +10,7 @@ collections:
   docs:
     output: true
 footer:
-  copyright: Lorem ipsum dolor <a href="">sit amet</a> consectetur adipiscing elit
+    copyright: Copyright &copy; 2018 <a href="https://clustergarage.io">ClusterGarage</a>.
 google_analytics: UA-126190026-1
 markdown: kramdown
 highlighter: rouge
