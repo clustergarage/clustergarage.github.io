@@ -7,6 +7,7 @@ formspree:
   redirect: /thanks/
 ---
 
-##### Morbi varius in accumsan blandit, elit ligula velit, luctus mattis ante nulla nulla.
+##### You can send us an email with the form below
 
-Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+You can also reach us on <a ref="https://github.com/clustergarage">GitHub</a>.  Issues and PRs welcome!
+

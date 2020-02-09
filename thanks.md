@@ -4,10 +4,8 @@ title: Thanks
 permalink: /thanks/
 ---
 
-Varius tempor. Nulla non sollicitudin tortor. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla.
+We're glad you found us and look forward to getting back to you!
 
-Ut malesuada varius tempor. Nulla non sollicitudin tortor. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla.
+You can also reach us on <a ref="https://github.com/clustergarage">GitHub</a>.  Issues and PRs welcome!
 
-Mesuada varius tempor. Nulla non sollicitudin tortor. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla.
-
-Varius tempor. Nulla non sollicitudin tortor. Morbi sit amet laoreet ipsum, vel pretium mi. Morbi varius, tellus in accumsan blandit, elit ligula eleifend velit, luctus mattis ante nulla condimentum nulla.
+-ClusterGarage Team
