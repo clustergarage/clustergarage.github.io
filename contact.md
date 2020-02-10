@@ -9,5 +9,5 @@ formspree:
 
 ##### You can send us an email with the form below
 
-You can also reach us on <a ref="https://github.com/clustergarage">GitHub</a>.  Issues and PRs welcome!
+You can also reach us on <a href="https://github.com/clustergarage">GitHub</a>.  Issues and PRs welcome!
 
